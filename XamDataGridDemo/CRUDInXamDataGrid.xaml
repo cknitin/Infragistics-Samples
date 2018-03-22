@@ -1,0 +1,29 @@
+﻿<Window x:Class="XamDataGridDemo.CRUDInXamDataGrid"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XamDataGridDemo"
+        mc:Ignorable="d"
+        xmlns:Custom="http://infragistics.com/DataPresenter" 
+        Title="CRUD In XamDataGrid" Height="500" Width="600"  Loaded="Window_Loaded">
+    <Grid>
+        <Custom:XamDataGrid x:Name="xamDataGridCategories">
+            <Custom:XamDataGrid.FieldSettings>
+                <Custom:FieldSettings AllowEdit="true"/>
+            </Custom:XamDataGrid.FieldSettings>
+            <Custom:XamDataGrid.FieldLayouts>
+                <Custom:FieldLayout>
+                    <Custom:Field Name="CategoryID"/>
+                    <Custom:Field Name="CategoryName"/>
+                    <Custom:Field Name="Description"/>
+                    
+                </Custom:FieldLayout>
+            </Custom:XamDataGrid.FieldLayouts>
+            <Custom:XamDataGrid.FieldLayoutSettings>
+                <Custom:FieldLayoutSettings  AutoGenerateFields="False" AllowAddNew="True" AllowDelete="True" AddNewRecordLocation="OnTopFixed"/>
+            </Custom:XamDataGrid.FieldLayoutSettings>
+        </Custom:XamDataGrid>
+
+    </Grid>
+</Window>

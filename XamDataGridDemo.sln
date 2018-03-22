@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamDataGridDemo", "XamDataGridDemo\XamDataGridDemo.csproj", "{41F252A3-C1CE-4DE8-9887-23E478FA5A59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForms", "WinForms", "{527A2033-AD07-49F6-8FB7-753DBA077757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormDataGridDemo", "WinFormDataGridDemo\WinFormDataGridDemo.csproj", "{4BF3C851-7FF3-400A-9002-D047A52FE3E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jquery", "Jquery", "{F1665F41-662D-428F-A20C-69913BCCFC2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "charts-demo-ignite-ui", "..\..\..\charts-demo-ignite-ui\charts-demo-ignite-ui.csproj", "{91DBC0CD-D681-4B13-90E9-69DBFABB9C3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41F252A3-C1CE-4DE8-9887-23E478FA5A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F252A3-C1CE-4DE8-9887-23E478FA5A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F252A3-C1CE-4DE8-9887-23E478FA5A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F252A3-C1CE-4DE8-9887-23E478FA5A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF3C851-7FF3-400A-9002-D047A52FE3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF3C851-7FF3-400A-9002-D047A52FE3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF3C851-7FF3-400A-9002-D047A52FE3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF3C851-7FF3-400A-9002-D047A52FE3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DBC0CD-D681-4B13-90E9-69DBFABB9C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DBC0CD-D681-4B13-90E9-69DBFABB9C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DBC0CD-D681-4B13-90E9-69DBFABB9C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DBC0CD-D681-4B13-90E9-69DBFABB9C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BF3C851-7FF3-400A-9002-D047A52FE3E1} = {527A2033-AD07-49F6-8FB7-753DBA077757}
+		{91DBC0CD-D681-4B13-90E9-69DBFABB9C3A} = {F1665F41-662D-428F-A20C-69913BCCFC2F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC2B003B-EA4E-42A1-9890-A7CCC16C8F90}
+	EndGlobalSection
+EndGlobal
